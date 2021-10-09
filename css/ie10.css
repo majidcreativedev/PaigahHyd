@@ -1,0 +1,38 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie10.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 10, ../sass/ie10.scss */
+.ie10 span.mym:before {
+  left: 14px !important;
+}
+/* line 13, ../sass/ie10.scss */
+.ie10 span.mym:after {
+  left: -15px !important;
+}
+
+/**/
+/* line 28, ../sass/ie10.scss */
+html.ie11 body.blog-list span.mym:before {
+  left: 13px !important;
+}
+/* line 31, ../sass/ie10.scss */
+html.ie11 body.blog-list span.mym:after {
+  left: -14px !important;
+}
+
+/* line 44, ../sass/ie10.scss */
+.ie10 .portfolio .element-item .overlay {
+  opacity: 0;
+  background: url(../images/target.png) no-repeat center 20%;
+}
+/* line 50, ../sass/ie10.scss */
+.ie10 .portfolio .element-item:focus .overlay, .ie10 .portfolio .element-item:active .overlay, .ie10 .portfolio .element-item:hover .overlay {
+  opacity: 1;
+  background: rgba(5, 67, 131, 0.8) url(../images/target.png) no-repeat center 20%;
+}
+/* line 55, ../sass/ie10.scss */
+.ie10 .portfolio .element-item:focus img.p-target, .ie10 .portfolio .element-item:active img.p-target, .ie10 .portfolio .element-item:hover img.p-target {
+  opacity: 0;
+}
