@@ -1136,26 +1136,6 @@ a.brand:focus{
   margin-bottom: 5rem;
 }
 
-.dots-image{
-  display: inline-block;
-  position: relative;
-}
-
-.dots-image img{
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-.dots-image .dots{
-  position: absolute;
-  left:-20%;
-  bottom: -15%;
-  width: 101%;
-  height: 57.2%;
-  background:url(../images/bg/dots.png) 0 0 repeat;
-}
-
 .experience-box{
   position: relative;
   white-space:nowrap;
@@ -1977,30 +1957,6 @@ a.brand:focus{
 .service-list li a:hover{
   color: #fff;
   text-decoration: none;
-}
-
-.dots-image-2{
-  display: inline-block;
-  position: relative;
-}
-
-.dots-image-2 .dots {
-  position: absolute;
-  z-index: -1;
-  left: -25%;
-  bottom: -19%;
-  width: 101%;
-  top:50%;
-  opacity: 0.8;
-  background: url(../images/bg/dots.png) 0 0 repeat;
-}
-
-
-.dots-image-2 .experience-info{
-  position: absolute;
-  left: 12%;
-  margin-top:-4.4rem;
-  top:100%;
 }
 
 .experience-info .number{
@@ -5016,29 +4972,6 @@ a.brand:focus{
 
 /* 3.3 Section About */
 
-
-
-
-.dots-image{
-  display: inline-block;
-  position: relative;
-}
-
-.dots-image img{
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-.dots-image .dots{
-  position: absolute;
-  left:-20%;
-  bottom: -15%;
-  width: 101%;
-  height: 57.2%;
-  background:url(../images/bg/dots.png) 0 0 repeat;
-}
-
 .experience-box{
   position: relative;
   white-space:nowrap;
@@ -5859,30 +5792,6 @@ a.brand:focus{
 .service-list li a:hover{
   color: #fff;
   text-decoration: none;
-}
-
-.dots-image-2{
-  display: inline-block;
-  position: relative;
-}
-
-.dots-image-2 .dots {
-  position: absolute;
-  z-index: -1;
-  left: -25%;
-  bottom: -19%;
-  width: 101%;
-  top:50%;
-  opacity: 0.8;
-  background: url(../images/bg/dots.png) 0 0 repeat;
-}
-
-
-.dots-image-2 .experience-info{
-  position: absolute;
-  left: 12%;
-  margin-top:-4.4rem;
-  top:100%;
 }
 
 .experience-info .number{
